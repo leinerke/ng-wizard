@@ -5,9 +5,7 @@ import { THEME } from '../utils/enums';
 import { Observable } from 'rxjs';
 import { StepChangedArgs } from '../utils/interfaces';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class NgWizardService {
   constructor(
     private ngWizardDataService: NgWizardDataService
